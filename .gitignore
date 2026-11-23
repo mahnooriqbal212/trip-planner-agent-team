@@ -1,18 +1,12 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# secrets
+.env
 
-# Other files and folders
-.settings/
+# SQLite database created by the notebook
+*.db
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Python / Jupyter
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
